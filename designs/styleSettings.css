@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  lab(100% 0.01 -0.01);
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#home{
+    position:fixed;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+
+h1{
+    color: lab(0% 0 0);
+    text-align: center;
+    padding: 10px;
+
+    position: fixed;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.settings{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+#custom{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#Exten{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#etc{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#etc2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#access{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#browser{
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

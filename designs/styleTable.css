@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  lab(100% 0.01 -0.01);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#cleo_logo{
+    width: 150px;
+    opacity: 0.6;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#enter{
+    width: 60px;
+    height: 20px;
+
+    font-size: 1.0rem;
+    background-color:  hsl(0, 0%, 100%);
+    border: 2px solid;
+    border-radius: 5px;
+
+    position: fixed;
+
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#searchbox{
+    width: 300px;
+    height: 30px;
+
+    font-size: 1.2rem;
+    background-color:  hwb(0 100% 0%);
+    border: 2px solid;
+    border-radius: 10px;
+
+    overflow: auto;
+    position: fixed;
+
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.message{
+    font-style: italic;
+    
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    color: hwb(0 0% 100%);
+    background: lch(100% 0.01 296.81);
+}
+
+#underwater{
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+
+}
+
+#underwater-desc{
+    position: fixed;
+    top: 55%;
+    left: 2%;
+    transform: translate(0%, -50%);
+
+}
+
+#ad-img{
+    width: 50px;
+    opacity: 0.6;
+    position: fixed;
+    top: 63%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#ad{
+    position: fixed;
+    top: 67%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#ad-desc{
+    position: fixed;
+    top: 72%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+
+#wiki{
+    position: fixed;
+    top: 82%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#wiki-desc{
+    position: fixed;
+    top: 87%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+
+#menu{
+    position:fixed;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#dropdown {
+            position: relative;
+            display: inline-block;
+}
+
+#menu-button {
+            background-color: #f1f1f1;
+            color: black;
+            
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            min-width: 160px;
+}
+
+#content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            border: 1px solid #ddd;
+            z-index: 1;
+}
+
+#dropdown:hover #content {
+    display: block;
+}
+
+#content div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#content div:hover {
+    background-color: #e6e6e6;
+}
+
+#arrow-back{
+    position:fixed;
+    left: 0%;
+    transform: translate(400%, -50%);
+}
+
+#arrow-front{
+    position:fixed;
+    left: 100%;
+    transform: translate(-500%, -50%);
+}
+
+#home{
+    position:fixed;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}

@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  lab(100% 0.01 -0.01);
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#home{
+    position:fixed;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+
+h1{
+    color: lab(0% 0 0);
+    text-align: center;
+    padding: 10px;
+
+    position: fixed;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.accessibility{
+    font-size: 1rem;
+    font-family: Arial;
+
+}
+
+#coulour-inversion{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#fontsize{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+    position: fixed;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#speech{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#etc1{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+    position: fixed;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#etc2{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+    position: fixed;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#etc3{
+    padding: 19px   50%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+
+    position: fixed;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

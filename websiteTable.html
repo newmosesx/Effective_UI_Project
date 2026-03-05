@@ -3,23 +3,24 @@
     <head>
         <title>Browser</title>
         <link rel="icon" type="image/png" href="images/favicon/cleopatra.png"></link>
-        <link rel="stylesheet" href="designs/styleIndex.css">
+        <link rel="stylesheet" href="designs/styleTable.css">
+
     </head>
 
     <body>
 
         <main>
-            <img id="cleo" src="images/favicon/cleopatra.png" alt="The icon image of Cleopatra">
-            <div id="entry-box" contenteditable="true"></div>
-            <button id="send" onclick="location.href='websiteTable.html'">Enter</button>
+            <img id="cleo_logo" src="images/favicon/cleopatra.png" alt="The image of Cleopatra">
+            <div id="searchbox" contenteditable="true"></div>
+            <button id="enter">Enter</button>
 
             <div id="dropdown">
-                <button type="button">
+                <button id="menu-button">
                     <img id= "menu" src="images/menu_icon.jpg"
                     alt="Button Image" style="width: 50px; height: 50px;">
                 </button>
                 <div id="content">
-                    <div onclick="location.reload()">New Tab</div>
+                    <div onclick="location.href='index.html'">New Tab</div>
                     <div onclick="alert('Zoomed in')">Zoom In</div>
                     <div onclick="alert('Zoomed out')">Zoom Out</div>
                     <div onclick="alert('History page')">History</div>
@@ -29,7 +30,7 @@
                 </div>
             </div>
 
-            <button type="button"onclick="alert('Nothing back')">
+            <button type="button"onclick="location.href='indexTable.html'">
                 <img id= "arrow-back" src="images/arrow_img_left.jpg"
                 alt="Button Image" style="width: 50px; height: 50px;">
             </button>
@@ -39,30 +40,28 @@
                 alt="Button Image" style="width: 50px; height: 50px;">
             </button>
 
-            <button type="button"onclick="location.reload()">
+            <button type="button"onclick="location.href='indexTable.html'">
                 <img id= "home" src="images/home_icon.png"
                 alt="Home Image" style="width: 50px; height: 50px;">
             </button>
 
-
-
-
-            <button type="button"onclick="location.href='https://pytorch.org/'">
-                <img id= "pytorch" src="images/pytorch.png"
-                alt="Button Image" style="width: 50px; height: 50px;">
-            </button>
-
-            <button type="button"onclick="location.href='https://github.com/'">
-                <img id= "github" src="images/github.png"
-                alt="Button Image" style="width: 50px; height: 50px;">
-            </button>
-
-            <button type="button"onclick="location.href='https://signin.aws.amazon.com/signup?request_type=register'">
-                <img id= "AWS" src="images/ACC.png"
-                alt="Home Image" style="width: 50px; height: 50px;">
-            </button>
+            <h4 class="message" id="underwater">How to build a house under water</h1>
+            <p id="underwater-desc">Trying to learn how to build a house under water? I wonder too...</p>
+            
+            <img id="ad-img" src="images\ad.png" alt="An image saying 'ad'">
+            <h4 class="message" id="ad">How to invest in Bitcoin 2026</h4>
+            <p id="ad-desc">How to get rich in 3 steps. Step 1 ...</p>
+            
+            <h4 class="message" id="wiki">BuildingPedia</h4>
+            <p id="wiki-desc">BuildingPedia is a community driven website of house builders. </p>
 
         </main>
 
     </body>
 </html>
+
+<!-- Sources Used:
+https://www.geeksforgeeks.org/html/html-dropdown/
+https://www.geeksforgeeks.org/html/html-dom-onclick-event/
+https://www.geeksforgeeks.org/html/html-dom-location-href-property/
+-->
